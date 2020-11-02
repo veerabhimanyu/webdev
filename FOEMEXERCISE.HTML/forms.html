@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/tacos">
+     <p><label for="Username">Username :</label>
+    <input id="Username" type="text" placeholder="username" name="username" required></p>   
+    <p>
+       <label for="password">Enter the Password :</label>
+        <input id="password" type="password" placeholder="password" name="pass" minlength="9">
+    </p>
+    <p>
+        <label for=""> Enter Date of Birth :
+            <input type="number" name="no">
+            <input type="month" name="month" >
+       
+
+        </label>
+       
+    </p>
+      
+    
+    
+    <input type="text" name="search_query" id=""required>
+   
+
+<h2>More details</h2>
+
+    <input type="checkbox" name="agree_tos" id="agree"required>
+    <label for="agree">I agree for every hing</label>
+    <p>
+        What is your gender?
+        <label for="Male">Male</label>
+        <input type="radio" name="size" id="Male" name="male" required>
+        <label for="s">Female</label>
+        <input type="radio" name="size" id="s" name="female" required>
+      
+    </p>
+    <p>
+        <label for="">Which is your favorite bird?</label>
+          <select name="Meal" id="Meal">  
+           <option value="fish">Fish</option>
+            <option value="Dog">Dog</option>
+            <option value="Pig">Pig</option>
+            <option value="Cat">Cat</option>
+            </select>
+    </p>
+    <p>
+        <label for="cheese">Amount of cheese</label>
+        <input type="range" id="cheese" min="0" max="100" name="level">
+    </p>
+    <button>Submit</button>
+</form>
+    <p><label for="req">Any idea</label>
+    <textarea name="req" id="req" cols="10" rows="40" required></textarea>
+    </p>
+</body>
+</html>
